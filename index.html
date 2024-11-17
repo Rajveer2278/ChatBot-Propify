@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propify - Buy, Rent, Sell Property</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Propify</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Find Your Dream Property</h2>
+        <p>Explore our wide range of listings to find the perfect place for you.</p>
+        <a href="#properties" class="btn">View Properties</a>
+    </section>
+
+    <section id="properties">
+        <h3>Featured Properties</h3>
+        <div class="property-card">
+            <img src="house1.jpg" alt="House 1">
+            <h4>3 BHK in New York</h4>
+            <p>$500,000</p>
+        </div>
+        <div class="property-card">
+            <img src="house2.jpg" alt="House 2">
+            <h4>2 BHK in San Francisco</h4>
+            <p>$450,000</p>
+        </div>
+    </section>
+
+    <!-- Chat Icon -->
+    <div id="chat-icon">
+        <img src="icon.png" alt="Chat">
+    </div>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot-section">
+        <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/3a6cf68d-c007-473c-9018-968af39a4a66">
+</iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Propify. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
